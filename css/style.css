@@ -1,0 +1,8 @@
+.navbar-collapse .navbar-nav {
+    flex-direction: row;
+}
+.btn-exclusao {
+    padding: 1px 7px !important;
+}
+
+
