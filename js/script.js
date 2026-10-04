@@ -233,7 +233,6 @@ function obterNomeTipo(tipo) {
 function carregaListaDespesas(despesas = Array(), filtro = false) {
   if (despesas.length == 0 && filtro == false) {
     despesas = bd.recuperarTodosRegistros().reverse();
-    console.log(despesas)
   }
 
   // Verifica se uma despesa foi removida para mostrar o modal de sucesso
